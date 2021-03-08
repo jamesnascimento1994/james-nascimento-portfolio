@@ -10,7 +10,7 @@
 }
 
 body {
-	font-family: 'Patrick Hand', sans-serif;
+	font-family: 'Patrick Hand', sans-serif !important;
 }
 
 /*********** NAVBAR ************/
@@ -40,6 +40,7 @@ nav ul li {
 	margin-left: 0.75rem;
 	color: var(--primary-white) !important;
 	border-top: 0.1875rem solid var(--primary-dark);
+  font-family: sans-serif !important;
 }
 
 .navbar-nav > li > a.active,
@@ -104,6 +105,7 @@ nav ul li {
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin: 2rem;
+  font-family: sans-serif !important;
 }
 
 .btn-main-offer:hover {
@@ -124,5 +126,30 @@ nav ul li {
 @media (max-width: 768px) {
   .particles-canvas {
     display: none;
+  }
+}
+
+/*********** ABOUT ************/
+
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-img {
+  width: 16rem;
+  border-radius: 50%;
+  padding: .3rem;
+  border: 1px solid var(--primary-gray);
+}
+
+.about-heading {
+  font-family: sans-serif;
+  color: var(--primary-gray);
+}
+
+@media(max-width: 468px) {
+  .profile-img {
+    width: 10rem;
   }
 }
