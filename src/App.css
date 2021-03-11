@@ -7,6 +7,7 @@
 	--primary-dark: rgba(255, 255, 255, 0);
 	--primary-black: #000;
   --primary-gray: #364;
+  --primary-dark-gray: #24292e;
   --primary-light-grey: #f4f4f4;
   --primary-maroon: #570e0d;
   --primary-dark-red: #2b0202;
@@ -221,4 +222,109 @@ nav ul li {
 
 .typescript-icon {
   margin-bottom: 30px;
+}
+
+/*********** PORTFOLIO ************/
+
+.portfolio-wrapper {
+  background: var(--primary-light-grey);
+  padding: 3rem 0;
+}
+
+.text-uppercase {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-gray)
+}
+
+.image-box-wrapper {
+  text-align: center;
+  padding: 20px;
+}
+
+.image-box-wrapper header {
+  padding: 20px;
+}
+
+.image-box-wrapper header h2 {
+  color: var(--primary-black);
+}
+
+.image-box-wrapper header h2:hover {
+  color: var(--primary-gray);
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+.image-box-wrapper header h2 > a {
+  color: var(--primary-black);
+}
+
+
+.image-box-wrapper header h2 > a:hover {
+  text-decoration: none;
+}
+
+.image-box-wrapper header > a {
+  color: var(--primary-black);
+  font-size: 1.5rem;
+  font-family: Roboto sans-serif;
+}
+
+.image-box-wrapper header > a:hover {
+  text-decoration: none;
+  color: var(--primary-gray);
+  transition: color .4s ease-in-out;
+  cursor: pointer;
+}
+
+.portfolio-image {
+  height: 20rem;
+  width: 20rem;
+  border: 5px solid var(--primary-black);
+  border-radius:5%;
+  padding: 0 0.5rem;
+}
+
+.portfolio-image:hover {
+  filter: brightness(40%);
+  transition: .3s ease-in-out;
+  cursor: pointer;
+}
+
+.image-box-wrapper h5 {
+  font-family: Roboto, sans-serif;
+  padding: 30px;
+}
+
+.image-box-wrapper h5:hover {
+  color: var(--primary-gray);
+  transition: all .4s ease-in-out;
+}
+
+.image-box-wrapper h5 > a {
+  color: var(--primary-black);
+  
+}
+
+.image-box-wrapper h5 > a:hover {
+  text-decoration: none;
+  color: var(--primary-gray);
+  transition: all .4s ease-in-out;
+  cursor: pointer;
+}
+
+.repo-link-button {
+  display: block;
+  color: var(--primary-black);
+  font-family: Roboto, sans-serif;
+  border-radius: 50%;
+  height: 3rem;
+  width: 14rem;
+  margin: 0 auto;
+}
+
+.repo-link-button:hover {
+  text-decoration: none;
+  color: var(--primary-gray);
+  transition: all .4s ease-in-out;
+  cursor: pointer;
 }
