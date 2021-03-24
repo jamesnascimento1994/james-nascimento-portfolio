@@ -1,7 +1,9 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
+import {Link} from 'react-scroll';
 import {
     LinkedinIcon,
-    LinkedinShareButton,
+    // LinkedinShareButton,
 } from 'react-share';
 import {Icon} from '@iconify/react';
 import githubIcon from '@iconify-icons/codicon/github';
@@ -25,29 +27,62 @@ const Footer = () => {
 						<div className='col-lg-3 col-md-2 col-sm-6'>
 							<div className='row'>
 								<div className='col'>
-									<a className='footer-nav'>Home</a>
-                                    <br/>
-									<a className='footer-nav'>About Me</a>
+									<Link smooth={true} to='home' className='footer-nav' href='#'>
+										Home
+									</Link>
+									<br />
+									<Link
+										smooth={true}
+										to='about'
+										offset={-110}
+										className='footer-nav'
+										href='#'>
+										About Me
+									</Link>
 								</div>
-                                <div className="col">
-									<a className='footer-nav'>Skills</a>
-                                    <br/>
-                                    <a className="footer-nav">Portfolio</a>
-                                </div>
+								<div className='col'>
+									<Link
+										smooth={true}
+										to='skills'
+										offset={-110}
+										className='footer-nav'
+										href='#'>
+										Skills
+									</Link>
+									<br />
+									<Link
+										smooth={true}
+										to='portfolio'
+										offset={-110}
+										className='nav-link'
+										href='#'>
+										Portfolio
+									</Link>
+								</div>
 							</div>
 						</div>
-                        <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
-                          <div className="d-flex justify-content-center">
-                    <LinkedinShareButton>
-                        <LinkedinIcon className="mx-3" size={36} />
-                    </LinkedinShareButton>
-                        <Icon icon={githubIcon} height={55} width="70"/>
-                              </div>
-                              <div className="pt-3 text-center">
-                                Copyright&copy;
-                                {new Date().getFullYear()}&nsbp;New Horizon | All Rights Reserved
-                            </div>  
-                        </div>
+						<div className='col-lg-5 col-md-5 col-sm-6 align-items-center'>
+							<div className='d-flex justify-content-center'>
+								<a
+									onClick={() =>
+										window.open('https://www.linkedin.com/in/jnas94/')
+									}>
+									<LinkedinIcon className='mx-3' size={36} />
+								</a>
+								<a
+									onClick={() =>
+										window.open('https://github.com/jamesnascimento1994')
+									}>
+									<Icon icon={githubIcon} height={55} width='70' />
+								</a>
+							</div>
+
+							<div className='pt-3 text-center'>
+								Copyright&copy;
+								{new Date().getFullYear()}&nsbp;New Horizon | All Rights
+								Reserved
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
