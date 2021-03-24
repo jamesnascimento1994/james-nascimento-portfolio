@@ -438,3 +438,12 @@ textarea.form-control {
 .footer p {
   margin-bottom: 0;
 }
+
+#footer-row {
+  color: white;
+  font-family: Roboto, sans-serif;
+}
+
+#footer-row a {
+  color: white;
+}

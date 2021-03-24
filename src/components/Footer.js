@@ -13,13 +13,13 @@ const Footer = () => {
     return (
 			<div className='footer'>
 				<div className='container'>
-					<div className='row'>
+					<div className='row' id="footer-row">
 						<div className='col-lg-4 col-md-6 col-sm-6'>
 							<div className='d-flex'>
 								<p>Staten Island, NY</p>
 							</div>
 							<div className='d-flex'>
-								<a href='tel:555-555-5555'>+7(960)555-5555</a>
+								<a href='tel:555-555-5555'>+1(718)612-6422</a>
 							</div>
 							<div className='d-flex'>
 								<p>james.nascimento94@yahoo.com</p>
