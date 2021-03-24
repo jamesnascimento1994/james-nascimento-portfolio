@@ -4,7 +4,7 @@
 	--primary-white: #fff;
 	--primary-red: #c8302b;
   --primary-hover-red: #f33501;
-	--primary-dark: rgba(255, 255, 255, 0);
+	--primary-dark: rgba(255,255,255,0);
 	--primary-black: #000;
   --primary-gray: #364;
   --primary-dark-gray: #24292e;
@@ -63,7 +63,7 @@ nav ul li {
 	background: url(comrawpixel1015323.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 90vh;
+	height: 100vh;
 }
 
 .main-info {
@@ -327,4 +327,114 @@ nav ul li {
   color: var(--primary-gray);
   transition: all .4s ease-in-out;
   cursor: pointer;
+}
+
+/*********** CONTACTS ************/
+.contacts {
+  background: var(--primary-dark-gray);
+  padding: 3rem 0;
+}
+
+.contacts h1 {
+  color: var(--primary-gray);
+  padding: 1.3rem;
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  color: var(--primary-light-grey);
+  font-size: 1.2rem;
+  font-family: Roboto, sans-serif;
+}
+
+/*------------ INPUTS --------------*/
+.contacts input, .contacts textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125px solid var(--primary-light-grey);
+  border-radius: 0;
+  color: var(--primary-gray);
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+}
+
+.contacts .container {
+  padding: 4rem 0;
+}
+
+.contacts input:focus, .contacts textarea:focus {
+  background: transparent;
+  color: var(--primary-white);
+}
+
+.contacts textarea {
+  height: 12.2rem !important;
+}
+
+.contact-btn {
+  margin: 1rem 0 0 0; 
+  width: 100%;
+  background: none;
+}
+
+.line {
+  position: relative;
+  top: -0.8rem;
+  width: 0;
+  height: 0.125rem;
+  background: var(--primary-gray);
+  display: inline-block;
+}
+
+input:focus+.line, textarea:focus+.line {
+  width: 100%;
+  transition: width .5s ease-in-out;
+}
+
+input.form-control {
+  margin: -0.3rem 0;
+}
+textarea.form-control {
+  margin: -0.3rem 0;
+}
+/*--------- MEDIA -----------*/
+@media(max-width: 768px) {
+  .contacts {
+    overflow-x: hidden;
+  }
+  .contacts .container {
+    padding: 0 1rem;
+  }
+
+  .contacts p {
+    padding: 0 0.4rem;
+  }
+}
+
+/*********** FOOTER ************/
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-gray);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-gray);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-gray);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
 }
