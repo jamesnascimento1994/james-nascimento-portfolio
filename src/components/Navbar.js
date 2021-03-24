@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 // REACT FONT AWESOME INPUT
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -58,6 +59,15 @@ const Navbar = () => {
 								href='#'>
 								Portfolio
 							</Link>
+						</li>
+						<li className='nav-item'>
+							<a
+								className='nav-link'
+								target='_blank'
+								href='https://github.com/jamesnascimento1994/jamesnascimento1994.github.io/files/6019308/James.Nascimento.Resume.pdf'
+								download='James Nascimento Resume'>
+								Resume
+							</a>
 						</li>
 					</ul>
 				</div>
