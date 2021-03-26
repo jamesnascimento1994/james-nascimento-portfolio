@@ -13,27 +13,37 @@ import flashCars from '../app-images/Flash-Cars.png';
 const Portfolio = () => {
 
 	return (
-		<div id="portfolio" className='portfolio-wrapper'>
+		<div id='portfolio' className='portfolio-wrapper'>
 			<div className='container'>
 				<h1 className='text-uppercase text-center py-5'>Portfolio</h1>
 				<div className='image-box-wrapper column justify-content-center'>
 					<header>
 						<h2>
-							<a onClick={() => window.open('https://vaxine.netlify.app/')}>Vaxine</a>
+							<a onClick={() => window.open('https://vaxine.netlify.app/')}>
+								Vaxine
+							</a>
 						</h2>
-						<a onClick={() => window.open('https://youtu.be/qRE26LH-Nv4')}>YouTube Demo</a>
+						<a onClick={() => window.open('https://youtu.be/qRE26LH-Nv4')}>
+							YouTube Demo
+						</a>
 					</header>
-					<a onClick={() => window.open('https://vaxine.netlify.app/')} className='image fit'>
+					<a
+						onClick={() => window.open('https://vaxine.netlify.app/')}
+						className='image fit'>
 						<img className='portfolio-image' src={vaxine} alt='Vaxine' />
 					</a>
-					
+
 					<h5>
 						<a onClick={() => window.open('https://vaxine.netlify.app/')}>
 							Click Here to view Deployed App
 						</a>
 					</h5>
 					<a
-						onClick={() => window.open('https://github.com/Covid-Bookings/Front-End-Covid-Bookings')}
+						onClick={() =>
+							window.open(
+								'https://github.com/Covid-Bookings/Front-End-Covid-Bookings'
+							)
+						}
 						className='repo-link-button'>
 						GitHub Repository Link
 					</a>
@@ -41,16 +51,22 @@ const Portfolio = () => {
 				<div className='image-box-wrapper column justify-content-center'>
 					<header>
 						<h2>
-							<a onClick={() => window.open('https://hungry-almeida-77d4b0.netlify.app/')}>
+							<a
+								onClick={() => window.open('https://war-on-code.netlify.app/')}>
 								War on Code
 							</a>
 						</h2>
-						<a onClick={() => window.open('https://www.youtube.com/watch?v=wGL_X_HcMT4&feature=youtu.be')}>
+						<a
+							onClick={() =>
+								window.open(
+									'https://www.youtube.com/watch?v=wGL_X_HcMT4&feature=youtu.be'
+								)
+							}>
 							YouTube Demo
 						</a>
 					</header>
 					<a
-						onClick={() => window.open('https://hungry-almeida-77d4b0.netlify.app/')}
+						onClick={() => window.open('https://war-on-code.netlify.app/')}
 						className='image fit'>
 						<img
 							className='portfolio-image'
@@ -58,14 +74,16 @@ const Portfolio = () => {
 							alt='War on Code'
 						/>
 					</a>
-					
+
 					<h5>
-						<a onClick={() => window.open('https://hungry-almeida-77d4b0.netlify.app/')}>
+						<a onClick={() => window.open('https://war-on-code.netlify.app/')}>
 							Click Here to view Deployed App
 						</a>
 					</h5>
 					<a
-						onClick={() => window.open('https://github.com/jamesnascimento1994/war-on-code')}
+						onClick={() =>
+							window.open('https://github.com/jamesnascimento1994/war-on-code')
+						}
 						className='repo-link-button'>
 						GitHub Repository Link
 					</a>
@@ -73,16 +91,24 @@ const Portfolio = () => {
 				<div className='image-box-wrapper column justify-content-center'>
 					<header>
 						<h2>
-							<a onClick={() => window.open('https://heuristic-thompson-5c48c6.netlify.app/')}>
+							<a
+								onClick={() =>
+									window.open('https://ping-of-pongs.netlify.app/')
+								}>
 								Ping of Pongs
 							</a>
 						</h2>
-						<a onClick={() => window.open('https://www.youtube.com/watch?v=EmL6-GMzuqE&feature=youtu.be')}>
+						<a
+							onClick={() =>
+								window.open(
+									'https://www.youtube.com/watch?v=EmL6-GMzuqE&feature=youtu.be'
+								)
+							}>
 							YouTube Demo
 						</a>
 					</header>
 					<a
-						onClick={() => window.open('https://heuristic-thompson-5c48c6.netlify.app/')}
+						onClick={() => window.open('https://ping-of-pongs.netlify.app/')}
 						className='image fit'>
 						<img
 							className='portfolio-image'
@@ -90,14 +116,19 @@ const Portfolio = () => {
 							alt='Ping of Pongs'
 						/>
 					</a>
-					
+
 					<h5>
-						<a onClick={() => window.open('https://heuristic-thompson-5c48c6.netlify.app/')}>
+						<a
+							onClick={() => window.open('https://ping-of-pongs.netlify.app/')}>
 							Click Here to view Deployed App
 						</a>
 					</h5>
 					<a
-						onClick={() => window.open('https://github.com/jamesnascimento1994/ping-of-pongs')}
+						onClick={() =>
+							window.open(
+								'https://github.com/jamesnascimento1994/ping-of-pongs'
+							)
+						}
 						className='repo-link-button'>
 						GitHub Repository Link
 					</a>
@@ -105,27 +136,42 @@ const Portfolio = () => {
 				<div className='image-box-wrapper column justify-content-center'>
 					<header>
 						<h2>
-							<a onClick={() => window.open('https://codesigners-candidates.netlify.app/')}>
+							<a
+								onClick={() =>
+									window.open('https://codesigners-candidates.netlify.app/')
+								}>
 								Candidate
 							</a>
 						</h2>
-						<a onClick={() => window.open('https://www.youtube.com/watch?v=vEq_gvCIukI&feature=youtu.be')}>
+						<a
+							onClick={() =>
+								window.open(
+									'https://www.youtube.com/watch?v=vEq_gvCIukI&feature=youtu.be'
+								)
+							}>
 							YouTube Demo
 						</a>
 					</header>
 					<a
-						onClick={() => window.open('https://codesigners-candidates.netlify.app/')}
+						onClick={() =>
+							window.open('https://codesigners-candidates.netlify.app/')
+						}
 						className='image fit'>
 						<img className='portfolio-image' src={candidate} alt='Candidate' />
 					</a>
-					
+
 					<h5>
-						<a onClick={() => window.open('https://codesigners-candidates.netlify.app/')}>
+						<a
+							onClick={() =>
+								window.open('https://codesigners-candidates.netlify.app/')
+							}>
 							Click Here to view Deployed App
 						</a>
 					</h5>
 					<a
-						onClick={() => window.open('https://github.com/mendokuse3/voting-app-deployment')}
+						onClick={() =>
+							window.open('https://github.com/mendokuse3/voting-app-deployment')
+						}
 						className='repo-link-button'>
 						GitHub Repository Link
 					</a>
@@ -133,31 +179,50 @@ const Portfolio = () => {
 				<div className='image-box-wrapper column justify-content-center'>
 					<header>
 						<h2>
-							<a onClick={() => window.open('https://salty-cliffs-88075.herokuapp.com/')}>Play-List</a>
+							<a
+								onClick={() =>
+									window.open('https://salty-cliffs-88075.herokuapp.com/')
+								}>
+								Play-List
+							</a>
 						</h2>
-						<a onClick={() => window.open('https://www.youtube.com/watch?v=tUT6lpVYvBY&feature=youtu.be')}>
+						<a
+							onClick={() =>
+								window.open(
+									'https://www.youtube.com/watch?v=tUT6lpVYvBY&feature=youtu.be'
+								)
+							}>
 							YouTube Demo
 						</a>
 					</header>
 					<a
-						onClick={() => window.open('https://salty-cliffs-88075.herokuapp.com/')}
+						onClick={() =>
+							window.open('https://salty-cliffs-88075.herokuapp.com/')
+						}
 						className='image fit'>
 						<img className='portfolio-image' src={playlist} alt='Play-List' />
 					</a>
-					
+
 					<h5>
-						<a onClick={() => window.open('https://salty-cliffs-88075.herokuapp.com/')}>
+						<a
+							onClick={() =>
+								window.open('https://salty-cliffs-88075.herokuapp.com/')
+							}>
 							Click Here to view Deployed App
 						</a>
 					</h5>
 
 					<a
-						onClick={() => window.open('https://github.com/teamscrum2000/font-end-uhhh')}
+						onClick={() =>
+							window.open('https://github.com/teamscrum2000/font-end-uhhh')
+						}
 						className='repo-link-button'>
 						GitHub Repository Link (Frontend)
 					</a>
 					<a
-						onClick={() => window.open('https://github.com/teamscrum2000/back-end-uhhh')}
+						onClick={() =>
+							window.open('https://github.com/teamscrum2000/back-end-uhhh')
+						}
 						className='repo-link-button'>
 						GitHub Repository Link (Backend)
 					</a>
@@ -165,32 +230,50 @@ const Portfolio = () => {
 				<div className='image-box-wrapper column justify-content-center'>
 					<header>
 						<h2>
-							<a onClick={() => window.open('https://bassopedia.herokuapp.com/')}>Bassopedia</a>
+							<a
+								onClick={() =>
+									window.open('https://bassopedia.herokuapp.com/')
+								}>
+								Bassopedia
+							</a>
 						</h2>
-						<a onClick={() => window.open('https://www.youtube.com/watch?v=tUT6lpVYvBY&feature=youtu.be')}>
+						<a
+							onClick={() =>
+								window.open(
+									'https://www.youtube.com/watch?v=tUT6lpVYvBY&feature=youtu.be'
+								)
+							}>
 							YouTube Demo
 						</a>
 					</header>
-					<a onClick={() => window.open('https://bassopedia.herokuapp.com/')} className='image fit'>
+					<a
+						onClick={() => window.open('https://bassopedia.herokuapp.com/')}
+						className='image fit'>
 						<img
 							className='portfolio-image'
 							src={bassopedia}
 							alt='Bassopedia'
 						/>
 					</a>
-					
+
 					<h5>
 						<a onClick={() => window.open('https://bassopedia.herokuapp.com/')}>
 							Click Here to view Deployed App
 						</a>
 					</h5>
 					<a
-						onClick={() => window.open('https://github.com/jamesnascimento1994/bassopedia')}
+						onClick={() =>
+							window.open('https://github.com/jamesnascimento1994/bassopedia')
+						}
 						className='repo-link-button'>
 						GitHub Repository Link (Frontend)
 					</a>
 					<a
-						onClick={() => window.open('https://github.com/jamesnascimento1994/project-four-backend')}
+						onClick={() =>
+							window.open(
+								'https://github.com/jamesnascimento1994/project-four-backend'
+							)
+						}
 						className='repo-link-button'>
 						GitHub Repository Link (Backend)
 					</a>
@@ -198,27 +281,46 @@ const Portfolio = () => {
 				<div className='image-box-wrapper column justify-content-center'>
 					<header>
 						<h2>
-							<a onClick={() => window.open('https://rushitoonzapp.herokuapp.com/')}>Rush iToonz</a>
+							<a
+								onClick={() =>
+									window.open('https://rushitoonzapp.herokuapp.com/')
+								}>
+								Rush iToonz
+							</a>
 						</h2>
-						<a onClick={() => window.open('https://www.youtube.com/watch?v=vEq_gvCIukI&feature=youtu.be')}>
+						<a
+							onClick={() =>
+								window.open(
+									'https://www.youtube.com/watch?v=vEq_gvCIukI&feature=youtu.be'
+								)
+							}>
 							YouTube Demo
 						</a>
 					</header>
-					<a onClick={() => window.open('https://rushitoonzapp.herokuapp.com/')} className='image fit'>
+					<a
+						onClick={() => window.open('https://rushitoonzapp.herokuapp.com/')}
+						className='image fit'>
 						<img
 							className='portfolio-image'
 							src={rushiToonz}
 							alt='Rush iToonz'
 						/>
 					</a>
-					
+
 					<h5>
-						<a onClick={() => window.open('https://rushitoonzapp.herokuapp.com/')}>
+						<a
+							onClick={() =>
+								window.open('https://rushitoonzapp.herokuapp.com/')
+							}>
 							Click Here to view Deployed App
 						</a>
 					</h5>
 					<a
-						onClick={() => window.open('https://github.com/jamesnascimento1994/sei-project-two-rushitoonz')}
+						onClick={() =>
+							window.open(
+								'https://github.com/jamesnascimento1994/sei-project-two-rushitoonz'
+							)
+						}
 						className='repo-link-button'>
 						GitHub Repository Link
 					</a>
@@ -226,26 +328,41 @@ const Portfolio = () => {
 				<div className='image-box-wrapper column justify-content-center'>
 					<header>
 						<h2>
-							<a onClick={() => window.open('https://jamesnascimento1994.github.io/flash-cars/')}>
+							<a
+								onClick={() =>
+									window.open(
+										'https://jamesnascimento1994.github.io/flash-cars/'
+									)
+								}>
 								Flash Cars
 							</a>
 						</h2>
-						<a onClick={() => window.open('https://www.youtube.com/watch?v=FJ3OR_eyuNo&t=2s')}>
+						<a
+							onClick={() =>
+								window.open('https://www.youtube.com/watch?v=FJ3OR_eyuNo&t=2s')
+							}>
 							YouTube Demo
 						</a>
 					</header>
 					<a
-						onClick={() => window.open('https://jamesnascimento1994.github.io/flash-cars/')}
+						onClick={() =>
+							window.open('https://jamesnascimento1994.github.io/flash-cars/')
+						}
 						className='image fit'>
 						<img className='portfolio-image' src={flashCars} alt='Flash Cars' />
-					</a>					
+					</a>
 					<h5>
-						<a onClick={() => window.open('https://jamesnascimento1994.github.io/flash-cars/')}>
+						<a
+							onClick={() =>
+								window.open('https://jamesnascimento1994.github.io/flash-cars/')
+							}>
 							Click Here to view Deployed App
 						</a>
 					</h5>
 					<a
-						onClick={() => window.open('https://github.com/jamesnascimento1994/flash-cars')}
+						onClick={() =>
+							window.open('https://github.com/jamesnascimento1994/flash-cars')
+						}
 						className='repo-link-button'>
 						GitHub Repository Link
 					</a>

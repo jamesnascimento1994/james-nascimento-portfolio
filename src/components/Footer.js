@@ -13,7 +13,7 @@ const Footer = () => {
     return (
 			<div className='footer'>
 				<div className='container'>
-					<div className='row' id="footer-row">
+					<div className='row' id='footer-row'>
 						<div className='col-lg-4 col-md-6 col-sm-6'>
 							<div className='d-flex'>
 								<p>Staten Island, NY</p>
@@ -60,13 +60,13 @@ const Footer = () => {
 										Portfolio
 									</Link>
 								</div>
-									<a
-										className='footer-nav'
-										target='_blank'
-										href='https://github.com/jamesnascimento1994/jamesnascimento1994.github.io/files/6019308/James.Nascimento.Resume.pdf'
-										download='James Nascimento Resume'>
-										Resume
-									</a>
+								<a
+									className='footer-nav'
+									target='_blank'
+									href='https://github.com/jamesnascimento1994/james-nascimento-portfolio/files/6213703/James.Nascimento.Resume.pdf'
+									download='James Nascimento Resume'>
+									Resume
+								</a>
 							</div>
 						</div>
 						<div className='col-lg-5 col-md-5 col-sm-6 align-items-center'>
