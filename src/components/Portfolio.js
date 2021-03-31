@@ -11,7 +11,6 @@ import rushiToonz from '../app-images/Rush-iToonz.png';
 import flashCars from '../app-images/Flash-Cars.png';
 
 const Portfolio = () => {
-
 	return (
 		<div id='portfolio' className='portfolio-wrapper'>
 			<div className='container'>
@@ -38,6 +37,12 @@ const Portfolio = () => {
 							Click Here to view Deployed App
 						</a>
 					</h5>
+					<p className='app-info'>
+						A healthcare application designed to make vaccine scheduling simple.
+						This was created for a hackathon and I worked with two other
+						developers and three UX designers. This app was built with HTML,
+						CSS, JavaScript, React, and Bootstrap.
+					</p>
 					<a
 						onClick={() =>
 							window.open(
@@ -80,6 +85,10 @@ const Portfolio = () => {
 							Click Here to view Deployed App
 						</a>
 					</h5>
+					<p className='app-info'>
+						A code challenging app to test your JavaScript skills! Created for a
+						hackathon and was built with HTML, CSS, and JavaScript.
+					</p>
 					<a
 						onClick={() =>
 							window.open('https://github.com/jamesnascimento1994/war-on-code')
@@ -123,6 +132,11 @@ const Portfolio = () => {
 							Click Here to view Deployed App
 						</a>
 					</h5>
+					<p className='app-info'>
+						A ping pong game with Runescape style CSS. I made this for a
+						hackathon and the other programming languages I used were HTML and
+						JavaScript.
+					</p>
 					<a
 						onClick={() =>
 							window.open(
@@ -168,6 +182,12 @@ const Portfolio = () => {
 							Click Here to view Deployed App
 						</a>
 					</h5>
+					<p className='app-info'>
+						A voting app to inspire young people to vote. This was created for a
+						hackathon and I worked with two other developers and four UX
+						designers. This was built with HTML, CSS, JavaScript, React, jQuery,
+						and bootstrap.
+					</p>
 					<a
 						onClick={() =>
 							window.open('https://github.com/mendokuse3/voting-app-deployment')
@@ -211,7 +231,13 @@ const Portfolio = () => {
 							Click Here to view Deployed App
 						</a>
 					</h5>
-
+					<p className='app-info'>
+						An application that allows you to create a list of your favorite
+						video games and their soundtracks. I worked with three other
+						developers. This is a full-stack application. The frontend included;
+						HTML, CSS, JavaScript, React, Node, and bootstrap. The backend
+						included; Python, Express, and MongoDB.
+					</p>
 					<a
 						onClick={() =>
 							window.open('https://github.com/teamscrum2000/font-end-uhhh')
@@ -261,6 +287,11 @@ const Portfolio = () => {
 							Click Here to view Deployed App
 						</a>
 					</h5>
+					<p className='app-info'>
+						An app made to show my favorite bass players and their genres! This
+						is full-stack and was built with HTML, CSS, JavaScript, React,
+						bootstrap, Python, and Django.
+					</p>
 					<a
 						onClick={() =>
 							window.open('https://github.com/jamesnascimento1994/bassopedia')
@@ -282,9 +313,7 @@ const Portfolio = () => {
 					<header>
 						<h2>
 							<a
-								onClick={() =>
-									window.open('https://rushitoonzapp.herokuapp.com/')
-								}>
+								onClick={() => window.open('https://rush-itoonz.netlify.app/')}>
 								Rush iToonz
 							</a>
 						</h2>
@@ -298,7 +327,7 @@ const Portfolio = () => {
 						</a>
 					</header>
 					<a
-						onClick={() => window.open('https://rushitoonzapp.herokuapp.com/')}
+						onClick={() => window.open('https://rush-itoonz.netlify.app/')}
 						className='image fit'>
 						<img
 							className='portfolio-image'
@@ -308,13 +337,11 @@ const Portfolio = () => {
 					</a>
 
 					<h5>
-						<a
-							onClick={() =>
-								window.open('https://rushitoonzapp.herokuapp.com/')
-							}>
+						<a onClick={() => window.open('https://rush-itoonz.netlify.app/')}>
 							Click Here to view Deployed App
 						</a>
 					</h5>
+					<p className="app-info">An application displaying the discography by one of my favorite bands, RUSH! Built with HTML, CSS, JavaScript, and React.</p>
 					<a
 						onClick={() =>
 							window.open(
@@ -359,6 +386,7 @@ const Portfolio = () => {
 							Click Here to view Deployed App
 						</a>
 					</h5>
+					<p className="app-info">A flash card game to test your knowledge of car brands and models. The first application I have ever created and deployed. Built with HTML, CSS, and JavaScript.</p>
 					<a
 						onClick={() =>
 							window.open('https://github.com/jamesnascimento1994/flash-cars')
