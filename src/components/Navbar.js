@@ -9,9 +9,9 @@ const Navbar = () => {
 	return (
 		<nav className='navbar navbar-expand-lg navbar-light bg-dark fixed-top'>
 			<div className='container'>
-				<a className='navbar-brand' href='#'>
+				<Link to="home" className='navbar-brand'>
 					<h3 className='header'>James Nascimento</h3>
-				</a>
+				</Link>
 				<button
 					className='navbar-toggler'
 					type='button'

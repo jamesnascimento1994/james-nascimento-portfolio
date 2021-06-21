@@ -28,6 +28,11 @@ nav {
 	color: #fff;
 }
 /*----- MENU LINKS -----*/
+
+.navbar-brand {
+  cursor: pointer;
+}
+
 nav a.nav-link {
 	letter-spacing: 0.0375rem;
 	cursor: pointer;
