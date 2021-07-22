@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react';
+import pomodoroClock from '../app-images/Pomodoro-Clock.png';
+import woodyCalculator from '../app-images/React-Calculator.png';
 import drumMachine from '../app-images/Drum-Machine.png';
 import markdownPreview from '../app-images/Markdown-Preview.png';
 import quotesAtRandom from '../app-images/Quotes-At-Random.png';
@@ -18,6 +20,99 @@ const Portfolio = () => {
 		<div id='portfolio' className='portfolio-wrapper'>
 			<div className='container'>
 				<h1 className='text-uppercase text-center py-5'>Portfolio</h1>
+				<div className='image-box-wrapper column justify-content-center'>
+					<header>
+						<h2>
+							<a
+								onClick={() =>
+									window.open('https://musing-pike-0a3d02.netlify.app/')
+								}>
+								Pomodoro Clock
+							</a>
+						</h2>
+						<a onClick={() => window.open('https://youtu.be/Xz-dPDKymQs')}>
+							YouTube Demo
+						</a>
+					</header>
+					<a
+						onClick={() =>
+							window.open('https://musing-pike-0a3d02.netlify.app/')
+						}
+						className='image fit'>
+						<img
+							className='portfolio-image'
+							src={pomodoroClock}
+							alt='Drum Machine'
+						/>
+					</a>
+
+					<h5>
+						<a
+							onClick={() =>
+								window.open('https://musing-pike-0a3d02.netlify.app/')
+							}>
+							Click Here to view Deployed App
+						</a>
+					</h5>
+					<p className='app-info'>
+						A pomodoro clock created with Babel compiled React, HTML, CSS, and
+						JavaScript
+					</p>
+					<a
+						onClick={() =>
+							window.open(
+								'https://github.com/jamesnascimento1994/pomodoro-clock'
+							)
+						}
+						className='repo-link-button'>
+						GitHub Repository Link
+					</a>
+				</div>
+				<div className='image-box-wrapper column justify-content-center'>
+					<header>
+						<h2>
+							<a
+								onClick={() =>
+									window.open('https://woody-calculator.netlify.app/')
+								}>
+								Woody Calculator
+							</a>
+						</h2>
+						<a onClick={() => window.open('https://youtu.be/qAydthZMdxM')}>
+							YouTube Demo
+						</a>
+					</header>
+					<a
+						onClick={() => window.open('https://woody-calculator.netlify.app/')}
+						className='image fit'>
+						<img
+							className='portfolio-image'
+							src={woodyCalculator}
+							alt='Drum Machine'
+						/>
+					</a>
+
+					<h5>
+						<a
+							onClick={() =>
+								window.open('https://woody-calculator.netlify.app/')
+							}>
+							Click Here to view Deployed App
+						</a>
+					</h5>
+					<p className='app-info'>
+						A calculator created with HTML, CSS, JavaScript, and React.
+					</p>
+					<a
+						onClick={() =>
+							window.open(
+								'https://github.com/jamesnascimento1994/javascript-calculator'
+							)
+						}
+						className='repo-link-button'>
+						GitHub Repository Link
+					</a>
+				</div>
 				<div className='image-box-wrapper column justify-content-center'>
 					<header>
 						<h2>
@@ -53,7 +148,8 @@ const Portfolio = () => {
 						</a>
 					</h5>
 					<p className='app-info'>
-						A drum machine created with Babel compiled React, JavaScript, Bootstrap, and SASS/SCSS.
+						A drum machine created with Babel compiled React, JavaScript,
+						Bootstrap, and SASS/SCSS.
 					</p>
 					<a
 						onClick={() =>
