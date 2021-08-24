@@ -9,7 +9,7 @@ const Navbar = () => {
 	return (
 		<nav className='navbar navbar-expand-lg navbar-light bg-dark fixed-top'>
 			<div className='container'>
-				<Link to="home" className='navbar-brand'>
+				<Link to='home' className='navbar-brand'>
 					<h3 className='header'>James Nascimento</h3>
 				</Link>
 				<button
@@ -64,7 +64,7 @@ const Navbar = () => {
 							<a
 								className='nav-link'
 								target='_blank'
-								href='https://github.com/jamesnascimento1994/jamesnascimento1994.github.io/files/6019308/James.Nascimento.Resume.pdf'
+								href='https://github.com/jamesnascimento1994/james-nascimento-portfolio/files/7036535/James.Nascimento.Resume.pdf'
 								download='James Nascimento Resume'>
 								Resume
 							</a>
