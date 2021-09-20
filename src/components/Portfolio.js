@@ -14,12 +14,223 @@ import playlist from '../app-images/Play-List.png';
 import bassopedia from '../app-images/Bassopedia.png';
 import rushiToonz from '../app-images/Rush-iToonz.png';
 import flashCars from '../app-images/Flash-Cars.png';
+import barGraph from '../app-images/Bar-Graph.png';
+import scatterPlotGraph from '../app-images/Scatterplot-Graph.png';
+import heatMap from '../app-images/Heat-Map.png';
+import choroplethMap from '../app-images/Choropleth-Map.png';
+import treeMap from '../app-images/Tree-Map.png';
 
 const Portfolio = () => {
 	return (
 		<div id='portfolio' className='portfolio-wrapper'>
 			<div className='container'>
 				<h1 className='text-uppercase text-center py-5'>Portfolio</h1>
+				<div className='image-box-wrapper column justify-content-center'>
+					<header>
+						<h2>
+							<a
+								onClick={() =>
+									window.open('https://cranky-jones-e3b5b2.netlify.app/')
+								}>
+								Tree Map with D3
+							</a>
+						</h2>
+					</header>
+					<a
+						onClick={() =>
+							window.open('https://cranky-jones-e3b5b2.netlify.app/')
+						}
+						className='image fit'>
+						<img className='portfolio-image' src={treeMap} alt='Tree Map' />
+					</a>
+
+					<h5>
+						<a
+							onClick={() =>
+								window.open('https://cranky-jones-e3b5b2.netlify.app/')
+							}>
+							Click Here to view Deployed App
+						</a>
+					</h5>
+					<p className='app-info'>
+						A tree map made with D3 that shows the
+						top video games from multiple consoles.
+					</p>
+					<a
+						onClick={() =>
+							window.open('https://github.com/jamesnascimento1994/d3-treemap')
+						}
+						className='repo-link-button'>
+						GitHub Repository Link
+					</a>
+				</div>
+				<div className='image-box-wrapper column justify-content-center'>
+					<header>
+						<h2>
+							<a
+								onClick={() =>
+									window.open('https://zealous-swirles-5aac9b.netlify.app/')
+								}>
+								Choropleth Map with D3
+							</a>
+						</h2>
+					</header>
+					<a
+						onClick={() =>
+							window.open('https://zealous-swirles-5aac9b.netlify.app/')
+						}
+						className='image fit'>
+						<img
+							className='portfolio-image'
+							src={choroplethMap}
+							alt='Choropleth Map'
+						/>
+					</a>
+
+					<h5>
+						<a
+							onClick={() =>
+								window.open('https://zealous-swirles-5aac9b.netlify.app/')
+							}>
+							Click Here to view Deployed App
+						</a>
+					</h5>
+					<p className='app-info'>
+						A choropleth map of the United States made with D3 that shows
+						monthly global land-surface temperature.
+					</p>
+					<a
+						onClick={() =>
+							window.open(
+								'https://github.com/jamesnascimento1994/d3-choropleth-map'
+							)
+						}
+						className='repo-link-button'>
+						GitHub Repository Link
+					</a>
+				</div>
+				<div className='image-box-wrapper column justify-content-center'>
+					<header>
+						<h2>
+							<a
+								onClick={() =>
+									window.open('https://vigorous-villani-7b22a0.netlify.app/')
+								}>
+								Heat Map with D3
+							</a>
+						</h2>
+					</header>
+					<a
+						onClick={() =>
+							window.open('https://vigorous-villani-7b22a0.netlify.app/')
+						}
+						className='image fit'>
+						<img className='portfolio-image' src={heatMap} alt='Heat Map' />
+					</a>
+
+					<h5>
+						<a
+							onClick={() =>
+								window.open('https://vigorous-villani-7b22a0.netlify.app/')
+							}>
+							Click Here to view Deployed App
+						</a>
+					</h5>
+					<p className='app-info'>
+						A heat map made with D3 that shows monthly global land-surface
+						temperature.
+					</p>
+					<a
+						onClick={() =>
+							window.open('https://github.com/jamesnascimento1994/d3-heat-map')
+						}
+						className='repo-link-button'>
+						GitHub Repository Link
+					</a>
+				</div>
+				<div className='image-box-wrapper column justify-content-center'>
+					<header>
+						<h2>
+							<a
+								onClick={() =>
+									window.open('https://nervous-brahmagupta-98bd25.netlify.app/')
+								}>
+								Scatter Plot Graph with D3
+							</a>
+						</h2>
+					</header>
+					<a
+						onClick={() =>
+							window.open('https://nervous-brahmagupta-98bd25.netlify.app/')
+						}
+						className='image fit'>
+						<img
+							className='portfolio-image'
+							src={scatterPlotGraph}
+							alt='Scatter Plot Graph'
+						/>
+					</a>
+
+					<h5>
+						<a
+							onClick={() =>
+								window.open('https://nervous-brahmagupta-98bd25.netlify.app/')
+							}>
+							Click Here to view Deployed App
+						</a>
+					</h5>
+					<p className='app-info'>
+						A scatter plot graph made with D3 that shows drug use in
+						professional bike racing.
+					</p>
+					<a
+						onClick={() =>
+							window.open(
+								'https://github.com/jamesnascimento1994/d3-scatterplot-graph'
+							)
+						}
+						className='repo-link-button'>
+						GitHub Repository Link
+					</a>
+				</div>
+				<div className='image-box-wrapper column justify-content-center'>
+					<header>
+						<h2>
+							<a
+								onClick={() =>
+									window.open('https://blissful-clarke-03a380.netlify.app/')
+								}>
+								Bar Graph with D3
+							</a>
+						</h2>
+					</header>
+					<a
+						onClick={() =>
+							window.open('https://blissful-clarke-03a380.netlify.app/')
+						}
+						className='image fit'>
+						<img className='portfolio-image' src={barGraph} alt='Bar Graph' />
+					</a>
+
+					<h5>
+						<a
+							onClick={() =>
+								window.open('https://blissful-clarke-03a380.netlify.app/')
+							}>
+							Click Here to view Deployed App
+						</a>
+					</h5>
+					<p className='app-info'>
+						A bar graph made with D3 that shows GDP growth in America.
+					</p>
+					<a
+						onClick={() =>
+							window.open('https://github.com/jamesnascimento1994/d3-bar-chart')
+						}
+						className='repo-link-button'>
+						GitHub Repository Link
+					</a>
+				</div>
 				<div className='image-box-wrapper column justify-content-center'>
 					<header>
 						<h2>
@@ -42,7 +253,7 @@ const Portfolio = () => {
 						<img
 							className='portfolio-image'
 							src={pomodoroClock}
-							alt='Drum Machine'
+							alt='Pomodoro Clock'
 						/>
 					</a>
 
@@ -88,7 +299,7 @@ const Portfolio = () => {
 						<img
 							className='portfolio-image'
 							src={woodyCalculator}
-							alt='Drum Machine'
+							alt='JavaScript Calculator'
 						/>
 					</a>
 
