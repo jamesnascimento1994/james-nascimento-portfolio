@@ -31,12 +31,16 @@ const Skills = () => {
 									</div>
 									<div className='icon-container'>
 										<FontAwesomeIcon icon={faPython} size='4x' />{' '}
-										<FontAwesomeIcon icon={faJava} size='4x' />{' '}
-                                        <Icon icon={typescriptIcon} height={55} width={70} className="typescript-icon"/>
+										{/* 
+                                            <FontAwesomeIcon icon={faJava} size='4x' />{' '}
+                                            <Icon icon={typescriptIcon} height={55} width={70} className="typescript-icon"/>
+                                        */}
 									</div>
-                                    <div className="icon-container">
+                                    {/* 
+                                        <div className="icon-container">
                                         <FontAwesomeIcon icon={faPhp} size="4x" className="php-icon"/>{' '}
                                     </div>
+                                    */}
 								</div>
 							</div>
 
@@ -60,11 +64,11 @@ const Skills = () => {
 							<div className='col-md-3 col-sm-6'>
 								<div className='box'>
 									<h3>Database Languages</h3>
-                                    <div className="icon-container">
+                                    {/*<div className="icon-container">
                                     <Icon icon={fileTypeSql} height={55} width={70} />
                                     <Icon icon={mysqlIcon} height={55} width={70} />
                                     <Icon icon={postgresqlIcon} height={55} width={70} />
-                                    </div>
+                                    </div> */}
                                     <div className="icon-container">
                                         <Icon icon={mongodbIcon} height={55} width={70} className="mongodb-icon"/>
                                         <h1 className="mongoose-logo">mongoose</h1>

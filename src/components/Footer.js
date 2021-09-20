@@ -63,7 +63,7 @@ const Footer = () => {
 								<a
 									className='footer-nav'
 									target='_blank'
-									href='https://github.com/jamesnascimento1994/james-nascimento-portfolio/files/6213703/James.Nascimento.Resume.pdf'
+									href='https://github.com/jamesnascimento1994/james-nascimento-portfolio/files/7193406/James.Nascimento.Resume.pdf'
 									download='James Nascimento Resume'>
 									Resume
 								</a>
