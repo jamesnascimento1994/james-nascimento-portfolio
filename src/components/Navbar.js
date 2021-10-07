@@ -64,7 +64,7 @@ const Navbar = () => {
 							<a
 								className='nav-link'
 								target='_blank'
-								href='https://github.com/jamesnascimento1994/james-nascimento-portfolio/files/7193406/James.Nascimento.Resume.pdf'
+								href='https://github.com/jamesnascimento1994/james-nascimento-portfolio/files/7298878/James.Nascimento.Resume.pdf'
 								download='James Nascimento Resume'>
 								Resume
 							</a>
